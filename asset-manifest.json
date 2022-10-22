@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.af7b8254.css",
+    "main.js": "/react-portfolio/static/js/main.e1ecf698.js",
+    "static/media/earl-about.JPG": "/react-portfolio/static/media/earl-about.994aaedc162347de5f3a.JPG",
+    "static/media/home-profile-blck.png": "/react-portfolio/static/media/home-profile-blck.16e7e9acda01c97cd319.png",
+    "static/media/EFL_Villapaz-resume.pdf": "/react-portfolio/static/media/EFL_Villapaz-resume.d903d6c57fe76db6399c.pdf",
+    "static/media/portfolio5.png": "/react-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio6.jpg": "/react-portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio3.png": "/react-portfolio/static/media/portfolio3.c1ba7542f55bfd89cacf.png",
+    "static/media/portfolio2.PNG": "/react-portfolio/static/media/portfolio2.80d2b0ae21a270212342.PNG",
+    "static/media/portfolio1.png": "/react-portfolio/static/media/portfolio1.8384d27408a778cee7ca.png",
+    "static/media/portfolio4.jpg": "/react-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.af7b8254.css.map": "/react-portfolio/static/css/main.af7b8254.css.map",
+    "main.e1ecf698.js.map": "/react-portfolio/static/js/main.e1ecf698.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af7b8254.css",
+    "static/js/main.e1ecf698.js"
+  ]
+}
