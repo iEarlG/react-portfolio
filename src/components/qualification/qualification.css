@@ -1,0 +1,112 @@
+.qualification_container {
+    max-width: 768px;
+}
+
+.qualification_tabs {
+    justify-content: center;
+    display: flex;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification_button {
+    color: var(--title-color);
+    cursor: pointer;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin: 0 var(--mb-1);
+}
+.qualification_button:hover {
+    color: var(--title-color-dark);
+}
+
+.qualification_icons {
+    font-size: 1.5rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification_active {
+    color: var(--title-color-dark);
+}
+
+.qualification_sections {
+    grid-template-columns: 0.5fr;
+    display: grid;
+    justify-content: center;
+}
+
+.qualification_contents {
+    display: none;
+}
+
+.qualification_content-active {
+    display: block;
+}
+
+.qualification_data {
+    grid-template-columns: 1fr max-content 1fr;
+    display: grid;
+    column-gap: 1.5rem;
+}
+
+.qualification_title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.qualification_subtitle {
+    font-size: var(--small-font-size);
+    display: inline-block;
+    margin-bottom: var(--mb-1);
+}
+
+.qualification_date {
+    font-size: var(--small-font-size);
+}
+
+.qualification_circle {
+    background-color: var(--text-color);
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.qualification_line {
+    background-color: var(--text-color);
+    display: block;
+    width: 1px;
+    height: 100%;
+    transform: translate(6px, -7px);
+}
+
+/*============== BREAKPOINTS =============*/
+
+/*========== LARGE DEVICES ==========*/
+@media screen and (max-width: 992px) {
+    .qualification_container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*========== MEDIUM DEVICES ==========*/
+@media screen and (max-width: 768px) {
+    .qualification_container {
+        margin-right: var(--mb-1-5);
+        margin-left: var(--mb-1-5);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .qualification_sections {
+        grid-template-columns: initial;
+    }
+    .qualification_button {
+        margin: 0 var(--mb-0-75);
+    }
+}
+
+/*========== SMALL DEVICES ==========*/
+@media screen and (max-width: 350px) {
+    .qualification_data {
+        gap: 0.5rem;
+    }
+}
